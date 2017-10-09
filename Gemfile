@@ -5,6 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Use boostrap for styling
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+
+# Use simple form for forms 
+gem 'simple_form', '~> 3.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
