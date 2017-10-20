@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#Use devise for Authentication 
+gem 'devise', '~> 4.2'
 # Use boostrap for styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
