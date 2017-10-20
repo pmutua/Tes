@@ -1,31 +1,49 @@
 class MessagesController < ApplicationController
-def index 
-    @messages = Message.all.order("created_at DESC") 
-end
+  before_action :find_message, only: %i[show edit update destroy]
+  def index
+    @messages = Message.all.order('created_at DESC')
+  end
 
-def show
-    @message = Message.find(params[:id])
-end
+  def show; end
 
-def new 
+  def new
     @message = Message.new
-end
+  end
 
-def create 
+  def create
     @message = Message.new(params.require(:message).permit(:title, :description))
     if @message.save
-        redirect_to root_path
+      redirect_to root_path
     else
-        render 'new'
+      render 'new'
     end
+  end
 
+  def edit
+    @message = Message.find(params[:id])
+  end
 
-end
+  def update
+    if message.update(mesage_params)
+      redirect_to message_path
+    else
+      render 'edit'
+    end
+  end
 
-private 
+  def destroy
+    @message.destroy
+    redirect_to root_path
 
-def message_params
+  end
+
+  private
+
+  def message_params
     params.require(:message).permit(:title, :description)
-end
+  end
 
+  def find_message
+    @message = Message.find(params[:id])
+  end
 end
