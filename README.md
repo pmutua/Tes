@@ -10,25 +10,26 @@ Sports forum where the user can view comments and join conversations.
 * Boostrap-sass
 * Devise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Prerequisites
+You need to have the following installed:
+* ruby 
+* rails 
+* postgreSQL
+* Bundler
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+`git clone https://github.com/pmutua/Espn.git`
 
-* System dependencies
+`cd ~/Espn`
 
-* Configuration
+`bundle install `
 
-* Database creation
+`run rails s`
 
-* Database initialization
 
-* How to run the test suite
+# Licence 
 
-* Services (job queues, cache servers, search engines, etc.)
+MIT 
 
-* Deployment instructions
 
-* ...
