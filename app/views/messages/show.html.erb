@@ -5,7 +5,7 @@
         <p class="message-posted-by"><%= time_ago_in_words(@message.created_at)%> ago
 
         <p class="message-desc"><%= @message.description %></p>
-        <h3 class="comment-section-header">Comments:</h3>
+        <h3 class="comment-section-header" style="color:gold">Comments:</h3>
 
         <p> <%= render @message.comments %></p>
 
