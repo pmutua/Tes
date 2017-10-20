@@ -1,10 +1,10 @@
 class CommentsController < ApplicationController
 
 
-	def create 
+    def create 
 		@message = Message.find(params[:message_id])
 		@comment = @message.comments.create(comment_params)
-		@comment.user_id = current_user.user_id
+		@comment.user_id = current_user.id
 
 
 		if @comment.save

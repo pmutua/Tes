@@ -4,7 +4,9 @@ class MessagesController < ApplicationController
     @messages = Message.all.order('created_at DESC')
   end
 
-  def show; end
+  def show
+  
+  end
 
   def new
     @message = current_user.messages.build
@@ -24,7 +26,7 @@ class MessagesController < ApplicationController
   end
 
   def update
-    if message.update(mesage_params)
+    if @message.update(message_params)
       redirect_to message_path
     else
       render 'edit'
