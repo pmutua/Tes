@@ -1,5 +1,8 @@
 class MessagesController < ApplicationController
-  before_action :find_message, only: %i[show edit update destroy]
+  before_action :authenticate_user!, except: [:index, :show]
+  before_action :find_message, only: [:show, :edit, :update, :destroy]
+  
+
   def index
     @messages = Message.all.order('created_at DESC')
   end

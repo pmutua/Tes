@@ -1,13 +1,14 @@
 # README
 # Description 
-App inspired from Hacker News and Espn sports forum.User can click on comments and join the conversation.
+Sports forum where the user can view comments and join conversations.
 
 # Technologies Used 
 
-Ruby on Rails 
-PostgreSQL
-Simple_form
-Boostrap-sass
+* Ruby on Rails 
+* PostgreSQL
+* Simple_form
+* Boostrap-sass
+* Devise
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
