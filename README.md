@@ -30,6 +30,12 @@ You need to have the following installed:
 
 # Licence 
 
-MIT 
+[MIT](.LICENCE)
+
+# Contributions
+If you see something you could add to the application pull Requests are allowed and also don't forget to _follow me_
+[@iamPhilipMutua](https:twitter.com/iamPhilipMutua)on twitter.
+
+
 
 
