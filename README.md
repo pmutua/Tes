@@ -1,6 +1,6 @@
-# Sports Forum
+# The Elder Scrolls Forum
 # Description 
-Sports forum where the user can view comments and join conversations.
+Dedicated application for _The Elder Scrolls_ fans. Users can start,join conversations, edit and view  comments.
 
 # Technologies Used 
 
