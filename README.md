@@ -32,4 +32,5 @@ You need to have the following installed:
 
 MIT 
 
-
+# Contributons 
+Pull requests are encouraged. Don't for get to _follow_ [@iamPhilipMutua](https://twitter.com/iamPhilipMutua) on twitter.
