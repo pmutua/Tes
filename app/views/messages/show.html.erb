@@ -13,7 +13,7 @@
         <%= render 'comments/form' %>
 
         <div class="links btn-group">
-            <%= link_to "Back", root_path, class: "btn btn-default"%>
+            <%= link_to "Back", root_path, class: "btn btn-success"%>
             <% if user_signed_in? %>
               <% if @message.user_id == current_user_id %>
     	        <%= link_to "Fix", edit_message_path, class: "btn btn-primary"%>
@@ -22,5 +22,6 @@
             <% end %>
         </div>
     </div>
-</<div>
-    
+</div>
+
+

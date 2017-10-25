@@ -9,6 +9,7 @@ end
 gem 'devise', '~> 4.2'
 # Use boostrap for styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'jquery-rails'
 
 # Use simple form for forms 
 gem 'simple_form', '~> 3.5'
