@@ -1,4 +1,4 @@
-# The Elder Scrolls Forum
+# The Elder Scrolls Fan Forum
 # Description 
 Dedicated application for _The Elder Scrolls_ fans. Users can start,join conversations, edit and view  comments.
 
