@@ -4,9 +4,11 @@ Dedicated application for _The Elder Scrolls_ fans. Users can start,join convers
 
 # Technologies Used 
 
-* Ruby on Rails 
+* Ruby
+* Rails 
 * PostgreSQL
 * Simple_form
+* JQuery
 * Boostrap-sass
 * Devise
 
@@ -19,9 +21,9 @@ You need to have the following installed:
 
 # Installation
 
-`git clone https://github.com/pmutua/Espn.git`
+`git clone https://github.com/pmutua/the_elder_scrolls_fan_forum.git`
 
-`cd ~/Espn`
+`cd ~/the_elder_scrolls_fan_forum`
 
 `bundle install `
 
