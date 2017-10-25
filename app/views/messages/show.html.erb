@@ -1,7 +1,7 @@
 <div class="col-md-10 col-md-offset-1">
     <div class="message-show">
         
-        <h2><%= @message.title %></h2>
+        <h2 style="color:#AD0101;"><%= @message.title %></h2>
         <p class="message-posted-by"><%= time_ago_in_words(@message.created_at)%> ago
 
         <p class="message-desc"><%= @message.description %></p>
@@ -15,7 +15,7 @@
         <div class="links btn-group">
             <%= link_to "Back", root_path, class: "btn btn-success"%>
             <% if user_signed_in? %>
-              <% if @message.user_id == current_user_id %>
+              <% if @message.user_id == current_user.id %>
     	        <%= link_to "Fix", edit_message_path, class: "btn btn-primary"%>
     	        <%= link_to "Delete", message_path(@message), method: :delete, data: { confirm: "Are you sure?"}, class: "btn btn-danger" %> 
               <% end %>    
