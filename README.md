@@ -1,4 +1,4 @@
-# The Elder Scrolls Fan Forum
+# TES
 # Description 
 Dedicated application for _The Elder Scrolls_ fans. Users can start,join conversations, edit and view  comments.
 
@@ -21,9 +21,9 @@ You need to have the following installed:
 
 # Installation
 
-`git clone https://github.com/pmutua/the_elder_scrolls_fan_forum.git`
+`git clone https://github.com/pmutua/Tes.git`
 
-`cd ~/the_elder_scrolls_fan_forum`
+`cd ~/Tes`
 
 `bundle install `
 
