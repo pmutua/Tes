@@ -41,4 +41,4 @@ If you see something you could add to the application pull Requests are allowed 
 
 
 # Contributons 
-Pull requests are encouraged. Don't for get to _follow_ [@iamPhilipMutua](https://twitter.com/iamPhilipMutua) on twitter.
+Pull requests are encouraged. Don't for get to _follow_ [@itsPhilipMutua](https://twitter.com/iamPhilipMutua) on twitter.
